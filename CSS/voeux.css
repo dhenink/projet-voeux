@@ -115,5 +115,6 @@ h1 {
 }
 
 .bonhomme {
-	text-align: center;
+	position: absolute;
+	right: 20%;
 }
