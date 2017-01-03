@@ -59,36 +59,22 @@ video {
 }
 
 .font {
-	position:absolute;
+	position: absolute;
 	left: 0;
 	top: 0;
 	height:100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #1D1D1D;
-}
-
-a {
-	text-decoration: none;
 }
 
 h1 {
-	font-size: 2em;
-	text-align: center;
 	color: white;
+	font-style: italic;
 	text-shadow: 8px 8px 8px;
 	font-family: New Century Schoolbook, serif;
 	position: absolute;
-	top: 0%;
-}
-
-.petit-logo-pop {
-	height: auto;
-	width: 100px;
-	position: absolute;
-	left: 15px;
-	top: 15px;
+	top: 20%;
 }
 
 #logopop, #snowflakeContainer, #meilleurs-voeux {
@@ -112,9 +98,4 @@ h1 {
 }
 .snowflake:hover {
     cursor: default;
-}
-
-.bonhomme {
-	position: absolute;
-	right: 20%;
 }

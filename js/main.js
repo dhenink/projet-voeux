@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
 		barAnimationDelay = 3800,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
 		//letters effect
-		lettersDelay = 50,
+		lettersDelay = 20,
 		//type effect
 		typeLettersDelay = 150,
 		selectionDuration = 500,
@@ -153,9 +153,9 @@ jQuery(document).ready(function(){
 	}
 
 	jQuery("#logopop").click(function(){
-		jQuery(this).hide();
+		jQuery(this).hide(1000);
 	});
 	jQuery("#snowflakeContainer").click(function(){
-		jQuery(this).hide();
+		jQuery(this).hide(1000);
 	});
 });
