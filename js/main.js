@@ -152,10 +152,13 @@ jQuery(document).ready(function(){
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
 
-	jQuery("#logopop").click(function(){
+	jQuery(".logopop-img").click(function(){
 		jQuery(this).hide(1000);
 	});
-	jQuery("#snowflakeContainer").click(function(){
+	jQuery(".snow").click(function(){
+		jQuery(this).hide(1000);
+	});
+		jQuery(".meilleurs-voeux").click(function(){
 		jQuery(this).hide(1000);
 	});
 });

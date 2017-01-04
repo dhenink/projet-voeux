@@ -23,7 +23,7 @@ html, body {
 	100%	{background-color: #D9E021;}
 }
 
-#meilleurs-voeux {
+.meilleurs-voeux {
 	text-align: center;
 }
 .meilleurs-voeux-img {
@@ -77,7 +77,7 @@ h1 {
 	top: 20%;
 }
 
-#logopop, #snowflakeContainer, #meilleurs-voeux {
+#logopop, .snow, .meilleurs-voeux {
 	position: absolute;
 	left: 0px;
 	top: 0px;
